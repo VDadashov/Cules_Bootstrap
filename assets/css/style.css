@@ -1,0 +1,15 @@
+section .carousel-inner img{
+    height: 640px;
+    object-fit: cover;
+}
+
+section #carouselExampleCaptions{
+    margin: 40px 120px;
+}
+
+
+section #about{
+    margin: 40px 120px;
+    width: 800px;
+    height: 500px;
+}

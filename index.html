@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary row">
+            <div class="container-fluid">
+               <img class="navbar-toggler-icon" style="margin: 10px; width: 50px; height: 50px;" src="assets/img/logo.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-8">
+                  <li class="nav-item col-1">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item col-1">
+                    <a class="nav-link" href="history.html">History</a>
+                  </li>
+                  <li class="nav-item col-1">
+                    <a class="nav-link" href="players.html">Players</a>
+                  </li>
+                  <li class="nav-item col-1">
+                    <a class="nav-link" href="#">Stadium</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <section>
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide ">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/download.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Culés</h5>
+                <p>"Culés", the passionate fans of FC Barcelona, have a deep devotion to the club that goes beyond just football and includes a strong connection to Catalan culture and identity.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/fcbarcelona-players-press.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>A New Era</h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/45638820.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Records</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/Barcelona fans celebrate after Champions League win.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Passion</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/HD wallpaper_ Lionel Messi and Neymar Da Silva Santos digital wallpaper, club.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Legends</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/82iQcmWxvstzFxEbYrTQT9.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Més Que Un Club</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2 class="text-center">About</h2>
+        <div id="about">
+          <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">"Més que un club"</h4>
+                <p>Beyond football, FC Barcelona is deeply ingrained in Catalan culture and identity. The club's motto, "Més que un club" ("More than a club"), reflects the role that the club plays in the community. The club is owned by its supporters through a unique democratic structure, and has historically been a symbol of resistance against the central Spanish government's attempts to suppress Catalan identity. For many, Barcelona is not just a football club, but a cultural and social institution that has captured the hearts of millions of fans around the world.</p>
+                <h4 id="list-item-2">Culés</h4>
+                <p>The passionate fans of FC Barcelona are known as culés. These fans have a deep devotion to the club that goes beyond just football and includes a strong connection to Catalan culture and identity. Culés can be found all over the world, and their unwavering support for the team has made Barcelona one of the most popular clubs in the world.</p>
+                <h4 id="list-item-3">Tiki-Taka</h4>
+                <p>Barcelona is known for their iconic style of play, known as tiki-taka. The style emphasizes quick, short passing and movement off the ball, and has become synonymous with Barcelona's success on the field. Tiki-taka was first introduced by Johan Cruyff in the 1990s, and has since been perfected by coaches like Pep Guardiola and Luis Enrique.</p>
+                <h4 id="list-item-4">Legends of FC Barcelona: From Cruyff to Messi.</h4>
+                <p>FC Barcelona has been home to some of the greatest players in football history. Johan Cruyff, the Dutch mastermind who revolutionized the club's style of play, is still revered by fans today. Other legendary players who have played for Barcelona include Ronaldinho, Xavi, and Andres Iniesta. However, the greatest of them all is arguably Lionel Messi, who has won a record 7 Ballon d'Or awards while playing for the club.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/bootstrap.min.js"></script>   
+</body>
+</html>

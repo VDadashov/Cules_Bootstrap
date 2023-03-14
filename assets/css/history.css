@@ -1,0 +1,14 @@
+section{
+    margin-top: 40px;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-box img{
+    width: 287.5px;
+    height: 191px;
+    object-fit: cover;
+}
