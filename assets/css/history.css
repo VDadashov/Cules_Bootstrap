@@ -8,7 +8,11 @@ section{
 }
 
 .card-box img{
-    width: 287.5px;
+    width: 275.5px;
     height: 191px;
-    object-fit: cover;
+    /* object-fit: cover; */
+}
+
+.card{
+    margin: 20px;
 }
